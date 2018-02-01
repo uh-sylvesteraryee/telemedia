@@ -1,12 +1,33 @@
-<header class="banner">
-  <div class="container">
-    <a class="brand" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
-    <nav class="nav-primary">
-      <?php
-      if (has_nav_menu('primary_navigation')) :
-        wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']);
-      endif;
-      ?>
-    </nav>
-  </div>
+<header class="nav-banner banner">
+    <div class="container-fluid clearfix">
+    <div class="row">
+      <a class="brand float-left" href="<?= esc_url(home_url('/')); ?>">
+        <?php
+          dynamic_sidebar('header-logo');
+        ?>
+      </a>
+
+      <div class="col-md-10">
+        <nav class="navbar navbar-toggleable-md nav-primary navbar-light float-right navbar-fixed" role="navigation">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <?php
+            if (has_nav_menu('primary_navigation')) :
+              wp_nav_menu([
+                'theme_location' => 'primary_navigation',
+                'depth'             => 2,
+                'container'         => 'div',
+                'container_class'   => 'collapse navbar-collapse',
+                'container_id'      => 'navbarNav',
+                'menu_class'        => 'navbar-nav',
+                'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                'walker'            => new WP_Bootstrap_Navwalker(),
+                ]);
+            endif;
+            ?>
+          </nav>
+        </div>
+      </div>
+    </div>
 </header>
