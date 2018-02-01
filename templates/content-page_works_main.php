@@ -1,6 +1,6 @@
 <section>
-<h3>CREATIVE MINDS</h3>
-<p>We can create brilliant moments in time. But we prefer to create ongoing experiences — conversations that keep on going. We aren’t limited in where and how we make that happen.</p>
+  <h3>CREATIVE MINDS</h3>
+  <p>We can create brilliant moments in time. But we prefer to create ongoing experiences — conversations that keep on going. We aren’t limited in where and how we make that happen.</p>
 </section>
 
 <section>
