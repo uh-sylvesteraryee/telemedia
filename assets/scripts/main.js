@@ -18,7 +18,16 @@
     // All pages
     'common': {
       init: function() {
-        // JavaScript to be fired on all pages
+        window.sr = new ScrollReveal();
+        sr
+        .reveal('.member-item', {
+          duration: 1000,
+          reset: false
+        }, 250)
+        .reveal('.service-item', {
+          duration: 1500,
+          reset: false
+        }, 150);
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired

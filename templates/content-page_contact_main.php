@@ -15,14 +15,16 @@
     <div class="row justify-content-center">
       <div class="col-md-10">
         <div class="row justify-content-center">
-          <div class="col-md-6">
+          <div class="col-md-6 contact-info">
             <h4>MAIN STUDIO</h4>
             <p>We can create brilliant moments in time. But we prefer to create ongoing experiences — conversations that keep on going.</p>
           </div>
-          <div class="col-md-6">
-            <div class="col-md-6"><i class="fa fa-map-marker"></i> No. 34 Faanofa Rd, Accra Ghana</div>
-            <div class="col-md-6"><i class="fa fa-phone"></i> 0302 123 456</div>
-            <div class="col-md-12"><i class="fa fa-envelope"></i>info@telemedia-agency.com</div>
+          <div class="col-md-6 contact-details">
+            <div class="row">
+            <div class="col-md-5 contact-item"><i class="fa fa-map-marker"></i> <p>No. 34 Faanofa Rd,<br> Accra Ghana</p></div>
+            <div class="col-md-5 contact-item"><i class="fa fa-phone"></i> <p>0302 123 456</p></div>
+            <div class="col-md-12 contact-item"><i class="fa fa-envelope"></i> <p>info@telemedia-agency.com</p></div>
+            </div>
           </div>
         </div>
       </div>

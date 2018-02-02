@@ -1,4 +1,4 @@
-<main>
+<main class="bgd-white">
 <div class="container-fluid">
   <div class="row justify-content-center block">
     <div class="col-md-10 sector">
@@ -27,7 +27,7 @@
         </div>
 
         <div class="col-md-6 service-item">
-          <div class="service-icon"></div>
+        <div class="service-icon"><i class="fa fa-pencil"></i></div>
           <div class="service-text">
             <h4>BRAND IDENTITY DESIGN</h4>
             <p>We can create brilliant moments in time. But we prefer to create ongoing experiences — conversations that keep on going. We aren’t limited in where and how we make that happen.</p>
@@ -35,7 +35,7 @@
         </div>
 
         <div class="col-md-6 service-item">
-          <div class="service-icon"></div>
+        <div class="service-icon"><i class="fa fa-pencil"></i></div>
           <div class="service-text">
             <h4>BRAND IDENTITY DESIGN</h4>
             <p>We can create brilliant moments in time. But we prefer to create ongoing experiences — conversations that keep on going. We aren’t limited in where and how we make that happen.</p>
@@ -43,7 +43,7 @@
         </div>
 
         <div class="col-md-6 service-item">
-          <div class="service-icon"></div>
+        <div class="service-icon"><i class="fa fa-pencil"></i></div>
           <div class="service-text">
             <h4>BRAND IDENTITY DESIGN</h4>
             <p>We can create brilliant moments in time. But we prefer to create ongoing experiences — conversations that keep on going. We aren’t limited in where and how we make that happen.</p>
@@ -54,10 +54,10 @@
     </div>
   </div>
 </div>
-
+</main>
 <section>
 
 <div class="parallax-window content-banner" data-parallax="scroll" data-image-src="<?php asset_link_get('home-base.jpg'); ?>">
   </div>
 </section>
-</main>
+
